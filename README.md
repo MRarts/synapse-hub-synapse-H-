@@ -4,5 +4,6 @@ Custom GUI fully made by me.
 GUI and scripts made from roblox studio (Wow!)
 100% Free!
 
-You can view the source codes in this github.
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MRarts/synapse-hub-synapse-H-/refs/heads/main/verison%201.0%20(subject%20to%20change)"))()loadstring(game:HttpGet("https://raw.githubusercontent.com/MRarts/synapse-hub-synapse-H-/refs/heads/main/verison%201.0%20(subject%20to%20change)"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MRarts/synapse-hub-synapse-H-/refs/heads/main/verison%201.0%20(subject%20to%20change)"))()
+
+NOTE GITHUB WILL BE CHANGED A LOT
