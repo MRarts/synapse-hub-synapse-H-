@@ -1,0 +1,322 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local topbar = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local nextpage = Instance.new("TextButton")
+local nextpage_2 = Instance.new("TextButton")
+local sidebar = Instance.new("Frame")
+local credit = Instance.new("TextButton")
+local updage = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local InfJump = Instance.new("TextButton")
+local fly = Instance.new("TextButton")
+local infyeild = Instance.new("TextButton")
+local synapsexscript = Instance.new("TextButton")
+local synapsexstreamsniper = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.fromRGB(60, 60, 61)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.250839591, 0, 0.211018041, 0)
+Frame.Size = UDim2.new(0, 504, 0, 336)
+Frame.Active = true
+
+topbar.Name = "top bar"
+topbar.Parent = Frame
+topbar.BackgroundColor3 = Color3.fromRGB(70, 70, 71)
+topbar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+topbar.BorderSizePixel = 0
+topbar.Position = UDim2.new(-0.00114453025, 0, -0.00176420668, 0)
+topbar.Size = UDim2.new(0, 504, 0, 60)
+
+ImageLabel.Parent = topbar
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0, 0, 0.0166666675, 0)
+ImageLabel.Size = UDim2.new(0, 136, 0, 36)
+ImageLabel.Image = "rbxassetid://1505584527"
+
+TextLabel.Parent = topbar
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.446428567, 0, -0.0166666675, 0)
+TextLabel.Size = UDim2.new(0, 279, 0, 60)
+TextLabel.Font = Enum.Font.Highway
+TextLabel.Text = "Synapse H"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+nextpage.Name = "next page"
+nextpage.Parent = topbar
+nextpage.BackgroundColor3 = Color3.fromRGB(70, 70, 71)
+nextpage.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nextpage.BorderSizePixel = 0
+nextpage.Position = UDim2.new(0.923590302, 0, 1.02363157, 0)
+nextpage.Size = UDim2.new(0, 39, 0, 38)
+nextpage.Font = Enum.Font.Highway
+nextpage.Text = ">"
+nextpage.TextColor3 = Color3.fromRGB(255, 255, 255)
+nextpage.TextScaled = true
+nextpage.TextSize = 14.000
+nextpage.TextWrapped = true
+
+nextpage_2.Name = "next page"
+nextpage_2.Parent = topbar
+nextpage_2.BackgroundColor3 = Color3.fromRGB(70, 70, 71)
+nextpage_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+nextpage_2.BorderSizePixel = 0
+nextpage_2.Position = UDim2.new(0.168936104, 0, 1.02363157, 0)
+nextpage_2.Size = UDim2.new(0, 39, 0, 38)
+nextpage_2.Font = Enum.Font.Highway
+nextpage_2.Text = "<"
+nextpage_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+nextpage_2.TextScaled = true
+nextpage_2.TextSize = 14.000
+nextpage_2.TextWrapped = true
+
+sidebar.Name = "side bar"
+sidebar.Parent = Frame
+sidebar.BackgroundColor3 = Color3.fromRGB(70, 70, 71)
+sidebar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sidebar.BorderSizePixel = 0
+sidebar.Position = UDim2.new(-0.130112782, 0, 0.560735822, 0)
+sidebar.Rotation = 90.000
+sidebar.Size = UDim2.new(0, 284, 0, 12)
+
+credit.Name = "credit"
+credit.Parent = sidebar
+credit.BackgroundColor3 = Color3.fromRGB(70, 70, 71)
+credit.BorderColor3 = Color3.fromRGB(70, 70, 71)
+credit.BorderSizePixel = 0
+credit.Position = UDim2.new(0.0438960977, 0, 2.5444591, 0)
+credit.Rotation = -90.000
+credit.Size = UDim2.new(0, 50, 0, 40)
+credit.Font = Enum.Font.Highway
+credit.Text = "Script and gui made by plaz (:"
+credit.TextColor3 = Color3.fromRGB(255, 255, 255)
+credit.TextScaled = true
+credit.TextSize = 14.000
+credit.TextWrapped = true
+
+updage.Name = "updage"
+updage.Parent = sidebar
+updage.BackgroundColor3 = Color3.fromRGB(70, 70, 71)
+updage.BorderColor3 = Color3.fromRGB(70, 70, 71)
+updage.BorderSizePixel = 0
+updage.Position = UDim2.new(0.257042259, 0, 2.58333325, 0)
+updage.Rotation = -90.000
+updage.Size = UDim2.new(0, 50, 0, 40)
+updage.Font = Enum.Font.Highway
+updage.Text = "Synapse buttons now execute loadstring scripts (:"
+updage.TextColor3 = Color3.fromRGB(255, 255, 255)
+updage.TextScaled = true
+updage.TextSize = 14.000
+updage.TextWrapped = true
+
+TextLabel_2.Parent = sidebar
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.73337245, 0, 1.58333337, 0)
+TextLabel_2.Rotation = -90.000
+TextLabel_2.Size = UDim2.new(0, 67, 0, 60)
+TextLabel_2.Font = Enum.Font.Highway
+TextLabel_2.Text = "V.1.0.0"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextLabel_3.Parent = sidebar
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.489436626, 0, 2.16666675, 0)
+TextLabel_3.Rotation = -90.000
+TextLabel_3.Size = UDim2.new(0, 67, 0, 50)
+TextLabel_3.Font = Enum.Font.Highway
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = sidebar
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.369718313, 0, 2.08333325, 0)
+TextLabel_4.Rotation = -90.000
+TextLabel_4.Size = UDim2.new(0, 67, 0, 50)
+TextLabel_4.Font = Enum.Font.Highway
+TextLabel_4.Text = "Hello,"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+ImageLabel_2.Parent = sidebar
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.661971807, 0, 1.83333337, 0)
+ImageLabel_2.Rotation = -90.000
+ImageLabel_2.Size = UDim2.new(0, 48, 0, 54)
+ImageLabel_2.Image = "rbxassetid://9524079125"
+
+InfJump.Name = "Inf Jump"
+InfJump.Parent = Frame
+InfJump.BackgroundColor3 = Color3.fromRGB(70, 70, 71)
+InfJump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfJump.BorderSizePixel = 0
+InfJump.Position = UDim2.new(0.244047612, 0, 0.324404776, 0)
+InfJump.Size = UDim2.new(0, 103, 0, 47)
+InfJump.Font = Enum.Font.Highway
+InfJump.Text = "Inf Jump"
+InfJump.TextColor3 = Color3.fromRGB(248, 248, 248)
+InfJump.TextScaled = true
+InfJump.TextSize = 14.000
+InfJump.TextWrapped = true
+
+fly.Name = "fly"
+fly.Parent = Frame
+fly.AnchorPoint = Vector2.new(1, 1)
+fly.BackgroundColor3 = Color3.fromRGB(70, 70, 71)
+fly.BorderColor3 = Color3.fromRGB(27, 42, 53)
+fly.Position = UDim2.new(0.690476179, 0, 0.464285702, 0)
+fly.Size = UDim2.new(0, 103, 0, 47)
+fly.Font = Enum.Font.Highway
+fly.Text = "Fly"
+fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+fly.TextScaled = true
+fly.TextSize = 20.000
+fly.TextStrokeTransparency = 0.750
+fly.TextWrapped = true
+
+infyeild.Name = "inf yeild"
+infyeild.Parent = Frame
+infyeild.BackgroundColor3 = Color3.fromRGB(70, 70, 71)
+infyeild.BorderColor3 = Color3.fromRGB(0, 0, 0)
+infyeild.BorderSizePixel = 0
+infyeild.Position = UDim2.new(0.72023809, 0, 0.324404776, 0)
+infyeild.Size = UDim2.new(0, 101, 0, 47)
+infyeild.Font = Enum.Font.Highway
+infyeild.Text = "INFINTE YEILD"
+infyeild.TextColor3 = Color3.fromRGB(248, 248, 248)
+infyeild.TextScaled = true
+infyeild.TextSize = 14.000
+infyeild.TextWrapped = true
+
+synapsexscript.Name = "synapse x script"
+synapsexscript.Parent = Frame
+synapsexscript.BackgroundColor3 = Color3.fromRGB(70, 70, 71)
+synapsexscript.BorderColor3 = Color3.fromRGB(0, 0, 0)
+synapsexscript.BorderSizePixel = 0
+synapsexscript.Position = UDim2.new(0.248015866, 0, 0.505952358, 0)
+synapsexscript.Size = UDim2.new(0, 101, 0, 47)
+synapsexscript.Font = Enum.Font.Highway
+synapsexscript.Text = "Synapse X Script"
+synapsexscript.TextColor3 = Color3.fromRGB(248, 248, 248)
+synapsexscript.TextScaled = true
+synapsexscript.TextSize = 14.000
+synapsexscript.TextWrapped = true
+
+synapsexstreamsniper.Name = "synapse x stream sniper"
+synapsexstreamsniper.Parent = Frame
+synapsexstreamsniper.BackgroundColor3 = Color3.fromRGB(70, 70, 71)
+synapsexstreamsniper.BorderColor3 = Color3.fromRGB(0, 0, 0)
+synapsexstreamsniper.BorderSizePixel = 0
+synapsexstreamsniper.Position = UDim2.new(0.490079373, 0, 0.505952358, 0)
+synapsexstreamsniper.Size = UDim2.new(0, 101, 0, 47)
+synapsexstreamsniper.Font = Enum.Font.Highway
+synapsexstreamsniper.Text = "synapse x stream sniper"
+synapsexstreamsniper.TextColor3 = Color3.fromRGB(248, 248, 248)
+synapsexstreamsniper.TextScaled = true
+synapsexstreamsniper.TextSize = 14.000
+synapsexstreamsniper.TextWrapped = true
+fly.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/eR4bgsRp"))()
+end)
+InfJump.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/Sd2XiJM0"))()
+end)
+synapsexscript.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/Synapse-X-Remake.lua"))()
+end)
+infyeild.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+synapsexstreamsniper.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/7nuZVcwJ"))()
+end)
+
+-- Scripts:
+
+local function XZWK_fake_script() -- Frame.Drag 
+	local script = Instance.new('LocalScript', Frame)
+
+	-- Place this LocalScript inside the GUI Frame you want to drag
+	local userInputService = game:GetService("UserInputService")
+	local frame = script.Parent
+	
+	local dragging = false
+	local dragInput, dragStart, startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	frame.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	userInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+	
+end
+coroutine.wrap(XZWK_fake_script)()
